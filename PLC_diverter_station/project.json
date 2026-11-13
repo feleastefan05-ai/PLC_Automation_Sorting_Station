@@ -1,0 +1,21 @@
+{
+  "version": 7,
+  "name": "sorting station",
+  "packages": [
+    "parts/oip.belt-conveyor",
+    "parts/oip.color-sensor",
+    "parts/oip.diverter",
+    "parts/oip.box-spawner",
+    "parts/oip.box",
+    "parts/oip.push-button",
+    "parts/oip.despawner",
+    "parts/oip.platform",
+    "parts/oip.stairs",
+    "parts/oip.diffuse-sensor"
+  ],
+  "scene": "scene.json",
+  "program": [
+    "plc/Sortare_Culori.st"
+  ],
+  "stScanMs": 10
+}

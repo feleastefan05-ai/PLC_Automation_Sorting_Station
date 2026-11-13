@@ -1,0 +1,451 @@
+{
+  "version": 4,
+  "parts": [
+    {
+      "id": "bld_1",
+      "name": "Building",
+      "locked": true,
+      "type": "building",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotationY": 0,
+      "params": {
+        "lengthSections": 5,
+        "widthSections": 4,
+        "heightSections": 1,
+        "columnSpacing": 0,
+        "rules": [
+          {
+            "wall": "B",
+            "run": 1,
+            "gap": 1,
+            "count": 2,
+            "start": 1,
+            "doorCount": 1,
+            "trailer": true
+          },
+          {
+            "wall": "B",
+            "run": 1,
+            "gap": 1,
+            "count": 2,
+            "start": 24,
+            "doorCount": 1,
+            "trailer": true
+          },
+          {
+            "wall": "A",
+            "run": 1,
+            "gap": 2,
+            "count": 2,
+            "start": 32,
+            "doorCount": 1,
+            "trailer": true
+          },
+          {
+            "wall": "A",
+            "run": 1,
+            "gap": 2,
+            "count": 2,
+            "start": 28,
+            "doorCount": 1,
+            "trailer": true
+          },
+          {
+            "wall": "dock_door",
+            "run": 1,
+            "gap": 1,
+            "count": 1,
+            "start": 2,
+            "doorCount": 2,
+            "trailer": true
+          }
+        ],
+        "floorVisible": true,
+        "wallsVisible": true,
+        "roofVisible": true,
+        "brightness": 1,
+        "backgroundColor": "#9fb1c4"
+      }
+    },
+    {
+      "id": "pt_1",
+      "type": "part",
+      "packageId": "oip.belt-conveyor",
+      "position": [
+        -2.35407430049189,
+        2,
+        2.031460549686103
+      ],
+      "rotationY": 0,
+      "params": {
+        "shapePreset": "straight",
+        "segments": [
+          [
+            4,
+            0
+          ]
+        ],
+        "width": 1.524,
+        "height": 0.17,
+        "standHeight": 2,
+        "fpmUnits": false,
+        "speedFpm": 394,
+        "speed": 2,
+        "accelTime": 0.5,
+        "decelTime": 0.5,
+        "friction": 0.59,
+        "beltColor": "#ffffff",
+        "beltTexture": "standard",
+        "frameRails": true,
+        "leftGuard": true,
+        "rightGuard": true,
+        "guardOpenings": [],
+        "guardHoles": [],
+        "guardMitres": [],
+        "railCuts": [],
+        "guardExtents": [],
+        "legs": true,
+        "legRests": [],
+        "tailLeg": true,
+        "tailLegOffset": 0.15,
+        "tailLegClearance": 1,
+        "headLeg": true,
+        "headLegOffset": 0.15,
+        "headLegClearance": 1,
+        "middleLegs": true,
+        "legSpacing": 3.05,
+        "exclusionStart": 0,
+        "exclusionEnd": 0,
+        "speedTag": "speed_tag_2",
+        "speedFpmTag": "",
+        "runTag": "run_tag_2",
+        "runningTag": "running_tag_2",
+        "speedAt30": 2,
+        "speedAt30Fpm": 394,
+        "velocityTag": "",
+        "inchesPerPulse": 1,
+        "pulseTag": "",
+        "encoderTag": ""
+      }
+    },
+    {
+      "id": "pt_2",
+      "type": "part",
+      "packageId": "oip.belt-conveyor",
+      "position": [
+        0.9581909470896921,
+        2,
+        2.8884605496861027
+      ],
+      "rotationY": -1.5707963267948966,
+      "params": {
+        "shapePreset": "straight",
+        "segments": [
+          [
+            4,
+            0
+          ]
+        ],
+        "width": 1.524,
+        "height": 0.17,
+        "standHeight": 2,
+        "fpmUnits": false,
+        "speedFpm": 394,
+        "speed": 2,
+        "accelTime": 0.5,
+        "decelTime": 0.5,
+        "friction": 0.59,
+        "beltColor": "#ffffff",
+        "beltTexture": "standard",
+        "frameRails": true,
+        "leftGuard": true,
+        "rightGuard": true,
+        "guardOpenings": [],
+        "guardHoles": [],
+        "guardMitres": [],
+        "railCuts": [],
+        "guardExtents": [],
+        "legs": true,
+        "legRests": [],
+        "tailLeg": true,
+        "tailLegOffset": 0.15,
+        "tailLegClearance": 1,
+        "headLeg": true,
+        "headLegOffset": 0.15,
+        "headLegClearance": 1,
+        "middleLegs": true,
+        "legSpacing": 3.05,
+        "exclusionStart": 0,
+        "exclusionEnd": 0,
+        "speedTag": "speed_tag_3",
+        "speedFpmTag": "",
+        "runTag": "run_tag_3",
+        "runningTag": "running_tag_3",
+        "speedAt30": 2,
+        "speedAt30Fpm": 394,
+        "velocityTag": "",
+        "inchesPerPulse": 1,
+        "pulseTag": "",
+        "encoderTag": ""
+      }
+    },
+    {
+      "id": "pt_3",
+      "type": "part",
+      "packageId": "oip.diverter",
+      "position": [
+        0.716785225189014,
+        1.8,
+        0.155960549686103
+      ],
+      "rotationY": 3.141592653589793,
+      "params": {
+        "diverted": false,
+        "divertTime": 0.25,
+        "divertDistance": 0.75,
+        "standHeight": 1.8,
+        "tag": "extend_tag_diverter"
+      }
+    },
+    {
+      "id": "pt_4",
+      "type": "part",
+      "packageId": "oip.belt-conveyor",
+      "position": [
+        -6.52407430049189,
+        2,
+        2.031460549686103
+      ],
+      "rotationY": 0,
+      "params": {
+        "shapePreset": "straight",
+        "segments": [
+          [
+            4,
+            0
+          ]
+        ],
+        "width": 1.524,
+        "height": 0.17,
+        "standHeight": 2,
+        "fpmUnits": false,
+        "speedFpm": 394,
+        "speed": 2,
+        "accelTime": 0.5,
+        "decelTime": 0.5,
+        "friction": 0.59,
+        "beltColor": "#ffffff",
+        "beltTexture": "standard",
+        "frameRails": true,
+        "leftGuard": true,
+        "rightGuard": true,
+        "guardOpenings": [],
+        "guardHoles": [],
+        "guardMitres": [],
+        "railCuts": [],
+        "guardExtents": [],
+        "legs": true,
+        "legRests": [],
+        "tailLeg": true,
+        "tailLegOffset": 0.15,
+        "tailLegClearance": 1,
+        "headLeg": true,
+        "headLegOffset": 0.15,
+        "headLegClearance": 1,
+        "middleLegs": true,
+        "legSpacing": 3.05,
+        "exclusionStart": 0,
+        "exclusionEnd": 0,
+        "speedTag": "speed_tag_1",
+        "speedFpmTag": "",
+        "runTag": "run_tag_1",
+        "runningTag": "running_tag_1",
+        "speedAt30": 2,
+        "speedAt30Fpm": 394,
+        "velocityTag": "",
+        "inchesPerPulse": 1,
+        "pulseTag": "",
+        "encoderTag": ""
+      }
+    },
+    {
+      "id": "pt_7",
+      "type": "part",
+      "packageId": "oip.despawner",
+      "position": [
+        2.5570227484318786,
+        0,
+        2.0219864473025835
+      ],
+      "rotationY": 0,
+      "params": {
+        "length": 2,
+        "width": 2,
+        "height": 1,
+        "countOnly": "",
+        "showReadout": false,
+        "countTag": "",
+        "rateTag": "",
+        "cycleTag": "",
+        "blockTag": ""
+      }
+    },
+    {
+      "id": "pt_8",
+      "type": "part",
+      "packageId": "oip.platform",
+      "position": [
+        -3.566290670789969,
+        2,
+        6.340969667986357
+      ],
+      "rotationY": 0,
+      "params": {
+        "length": 4,
+        "width": 4,
+        "height": 2,
+        "deckSurface": "tread",
+        "color": "#f2bd0f",
+        "showRailings": true,
+        "showSupports": true
+      }
+    },
+    {
+      "id": "pt_9",
+      "type": "part",
+      "packageId": "oip.stairs",
+      "position": [
+        -8.64629067078997,
+        0,
+        6.504950987033718
+      ],
+      "rotationY": 0,
+      "params": {
+        "numSteps": 11,
+        "width": 1.2,
+        "showHandrails": true,
+        "color": "#f2bd0f"
+      }
+    },
+    {
+      "id": "pt_10",
+      "parent": "pt_8",
+      "type": "part",
+      "packageId": "oip.push-button",
+      "position": [
+        -3.864023257956176,
+        1.955,
+        4.310969667986357
+      ],
+      "rotationY": 3.141592653589793,
+      "params": {
+        "emergencyStop": false,
+        "text": "STOP",
+        "buttonColor": "#b3140f",
+        "momentary": true,
+        "startPressed": false,
+        "startStruck": false,
+        "normallyClosed": false,
+        "lampSource": "press",
+        "tag": "button_output",
+        "lampTag": "lamp_tag"
+      }
+    },
+    {
+      "id": "pt_11",
+      "type": "part",
+      "packageId": "oip.despawner",
+      "position": [
+        1.5866765781835088,
+        0,
+        7.120170019129027
+      ],
+      "rotationY": 0,
+      "params": {
+        "length": 2,
+        "width": 2,
+        "height": 1,
+        "countOnly": "",
+        "showReadout": false,
+        "countTag": "",
+        "rateTag": "",
+        "cycleTag": "",
+        "blockTag": ""
+      }
+    },
+    {
+      "id": "pt_12",
+      "type": "part",
+      "packageId": "oip.diffuse-sensor",
+      "position": [
+        0.7029481070431998,
+        1.98,
+        1.212460549686103
+      ],
+      "rotationY": 0,
+      "params": {
+        "maxRange": 1.564,
+        "mode": "diffuse",
+        "showBeam": true,
+        "normallyClosed": false,
+        "mark": "",
+        "tag": "presence_tag"
+      }
+    },
+    {
+      "id": "pt_13",
+      "type": "part",
+      "packageId": "oip.box",
+      "position": [
+        -3.5668026243092896,
+        2.2,
+        1.8934591835618069
+      ],
+      "rotationY": 0,
+      "params": {
+        "length": 0.6,
+        "width": 0.4,
+        "height": 0.4,
+        "mass": 10,
+        "color": "#ffffff"
+      }
+    },
+    {
+      "id": "pt_14",
+      "type": "part",
+      "packageId": "oip.box-spawner",
+      "position": [
+        -5.57810315884402,
+        2.46,
+        1.8145599541214033
+      ],
+      "rotationY": 0,
+      "params": {
+        "boxesPerMinute": 19,
+        "fixedRate": true,
+        "product": "oip.box",
+        "productSettings": "",
+        "boxColor": "#ffffff",
+        "boxColors": "",
+        "mixAttribute": "",
+        "mixValues": "",
+        "randomColors": false,
+        "length": 0.6,
+        "width": 0.4,
+        "height": 0.4,
+        "randomSize": false,
+        "mass": 10,
+        "disable": false,
+        "release": "interval",
+        "keepSpacing": false,
+        "conveyorId": "",
+        "runTag": "",
+        "countTag": ""
+      }
+    }
+  ]
+}
